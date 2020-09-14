@@ -1,4 +1,4 @@
-https://travis-ci.com/niconunez96/multi-docker.svg?branch=master
+[![Build Status](https://travis-ci.com/niconunez96/multi-docker.svg?branch=master)](https://travis-ci.com/niconunez96/multi-docker)
 
 ## Description
 
