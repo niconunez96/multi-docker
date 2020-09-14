@@ -10,8 +10,8 @@ class Fibonacci extends React.Component{
     };
 
     componentDidMount(){
-        // this.fetchValues();
-        // this.fetchIndexes();
+        this.fetchValues();
+        this.fetchIndexes();
     }
 
     fetchValues = async () => {
@@ -35,6 +35,8 @@ class Fibonacci extends React.Component{
             index: this.state.index
         });
         this.setState({index: ''});
+        this.fetchIndexes();
+        this.fetchValues();
     }
 
     renderValues = () => {

@@ -13,7 +13,7 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <nav className="navigation">
             <Link className="App-link" to="/">Home</Link>
-            <Link className="App-link" to="/otherpage">Other page</Link>
+            <Link className="App-link" to="/otherpage">Other link</Link>
           </nav>
         </header>
         <div>
